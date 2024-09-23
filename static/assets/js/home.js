@@ -169,17 +169,16 @@ document.addEventListener("DOMContentLoaded", event => {
   }
 });
 // Splash texts
-const SplashT = [
-  "Over 8 Million Users since 2023",
+const SplashT = ["now on vercel",
   "Fastest growing proxy server",
-  "Made by xBubbo",
-  "Check out discord.gg/interstellar :)",
+  "reMade by 11bunno11",
+  "only the necessary",
+  "Now with Zero Ads!",
   "Thanks for using the site",
-  "Follow us on Tiktok (@useinterstellar)",
-  "Subscribe to us on YouTube (@unblocking)",
-  "Subscribe to my Youtube (@xbubbo)",
-  "Check out the settings page",
-  "Check out our Patreon (https://www.patreon.com/gointerstellar)",
+  "Follow me on Twitter/X  (@11bunno11)",
+  "Follow me on Instagram  (silica.jello)",
+  "Im on BlueSky too! (@11bunno11)",
+  "Check out my super cool website (https://silicajello.neocities.org)",
 ];
 
 let SplashI = Math.floor(Math.random() * SplashT.length);
@@ -195,20 +194,14 @@ SplashE.innerText = SplashT[SplashI];
 SplashE.addEventListener("click", US);
 // Random URL
 function getRandomUrl() {
-  const randomUrls = [
-    "https://kahoot.it",
-    "https://classroom.google.com",
+  const randomUrls = ["https://google.co.jp",
+    "https://mail.google.com",
     "https://drive.google.com",
     "https://google.com",
     "https://docs.google.com",
-    "https://slides.google.com",
-    "https://www.nasa.gov",
-    "https://blooket.com",
-    "https://clever.com",
-    "https://edpuzzle.com",
-    "https://khanacademy.org",
-    "https://wikipedia.org",
-    "https://dictionary.com",
+    "https://github.com",
+    "https://silicajello.neocities.org/main/me.html",
+    "https://yahoo.com",
   ];
   return randomUrls[randRange(0, randomUrls.length)];
 }
